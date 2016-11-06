@@ -1,0 +1,127 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--save-exact',
+1 verbose cli   'react-scripts' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react-scripts
+8 silly fetchNamedPackageData react-scripts
+9 silly mapToRegistry name react-scripts
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/react-scripts
+13 verbose request uri https://registry.npmjs.org/react-scripts
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 20:14:21
+16 verbose request id 739c9b04510813ca
+17 verbose etag "1GK0J29G1AG7WRS20JYTXA14V"
+18 http request GET https://registry.npmjs.org/react-scripts
+19 http 304 https://registry.npmjs.org/react-scripts
+20 verbose headers { date: 'Sun, 23 Oct 2016 12:14:32 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   etag: '"1GK0J29G1AG7WRS20JYTXA14V"',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-hkg6824-HKG',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1477224872.613874,VS0,VE227',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Sun, 23 Oct 2016 12:14:32 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     etag: '"1GK0J29G1AG7WRS20JYTXA14V"',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-hkg6824-HKG',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1477224872.613874,VS0,VE227',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose etag https://registry.npmjs.org/react-scripts from cache
+23 verbose get saving react-scripts to C:\Users\Stone\AppData\Roaming\npm-cache\registry.npmjs.org\react-scripts\.cache.json
+24 verbose correctMkdir C:\Users\Stone\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule react-scripts@0.7.0 checking installable status
+38 silly cache add args [ 'react-scripts', null ]
+39 verbose cache add spec react-scripts
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'react-scripts',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'react-scripts',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed react-scripts@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for react-scripts
+43 info addNameTag [ 'react-scripts', 'latest' ]
+44 silly mapToRegistry name react-scripts
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/react-scripts
+48 verbose addNameTag registry:https://registry.npmjs.org/react-scripts not in flight; fetching
+49 verbose get https://registry.npmjs.org/react-scripts not expired, no request
+50 silly addNameTag next cb for react-scripts with tag latest
+51 silly addNamed react-scripts@0.7.0
+52 verbose addNamed "0.7.0" is a plain semver version for react-scripts
+53 silly mapToRegistry name react-scripts
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/react-scripts
+57 verbose addRemoteTarball https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz not in flight; adding
+58 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz',
+58 verbose addRemoteTarball   'e499ebaf8bb077f7045770eaef1df5cfe308e3e0' ]
+59 info retry fetch attempt 1 at 20:14:30
+60 info attempt registry request try #1 at 20:14:30
+61 http fetch GET https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz
+62 http fetch 200 https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz
+63 info retry will retry, error on last attempt: Error: read ECONNRESET
+64 info retry will retry, error on last attempt: Error: read ECONNRESET
+65 silly fetchAndShaCheck shasum e499ebaf8bb077f7045770eaef1df5cfe308e3e0
+66 silly rollbackFailedOptional Starting
+67 silly rollbackFailedOptional Finishing
+68 silly runTopLevelLifecycles Starting
+69 silly runTopLevelLifecycles Finishing
+70 silly install printInstalled
+71 verbose stack Error: shasum check failed for C:\Users\Stone\AppData\Local\Temp\npm-640-abeb9b4d\registry.npmjs.org\react-scripts\-\react-scripts-0.7.0.tgz
+71 verbose stack Expected: e499ebaf8bb077f7045770eaef1df5cfe308e3e0
+71 verbose stack Actual:   7c70db9776cd312b7956725887aa9748644456e6
+71 verbose stack From:     https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz
+71 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+71 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+71 verbose stack     at emitNone (events.js:85:20)
+71 verbose stack     at ReadStream.emit (events.js:179:7)
+71 verbose stack     at endReadableNT (_stream_readable.js:913:12)
+71 verbose stack     at _combinedTickCallback (node.js:383:13)
+71 verbose stack     at process._tickCallback (node.js:407:11)
+72 verbose cwd F:\solutions\learn\react\react-website\1-installation\hello-world
+73 error Windows_NT 10.0.14393
+74 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "--save-exact" "react-scripts"
+75 error node v5.9.1
+76 error npm  v3.7.3
+77 error shasum check failed for C:\Users\Stone\AppData\Local\Temp\npm-640-abeb9b4d\registry.npmjs.org\react-scripts\-\react-scripts-0.7.0.tgz
+77 error Expected: e499ebaf8bb077f7045770eaef1df5cfe308e3e0
+77 error Actual:   7c70db9776cd312b7956725887aa9748644456e6
+77 error From:     https://registry.npmjs.org/react-scripts/-/react-scripts-0.7.0.tgz
+78 error If you need help, you may report this error at:
+78 error     <https://github.com/npm/npm/issues>
+79 verbose exit [ 1, true ]
